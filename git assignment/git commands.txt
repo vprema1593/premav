@@ -1,0 +1,127 @@
+                            html
+mkdir project_dir
+   cd project_dir
+  git init
+ touch index.html
+    git status
+  git stage index.html
+    git commit -m"added index,html file"
+ touch info.txt
+ git status
+  touch .gitignore
+  git status
+ git status
+ git stage index.html
+  git commit -m"commited index.html"
+  git log
+   git checkout index.html
+  git checkout index.html
+    git config --global alias.my-add add
+  git my-add index.html
+ git commit -m "modified index file for my add command"
+    git reset --soft Head~1
+
+                            Git-Branching
+ 1.mkdir Assignments
+2..cd Assignments/
+3 .touch README.txt
+4 .git add -A
+5 .git commit -m "commiting README file"
+6 .git branch html-assignments
+7 .git checkout html-assignments
+8 .cp ../Project_dir/index.html ../Project_dir/Assignments/
+9 .git add -A
+10 .git commit -m "commit copy file in html branch"
+11 .git commit -a -m "commiting index copy changes in html assignment"
+12 .git checkout master
+13 .git add -A
+14 .git commit -m "commint changes in master"
+15 .git checkout html-assignments
+16 .git add -A
+17 .git commit -m "final commit in html branch modified index"
+18 .git checkout master
+19 .git merge html-assignments
+20 .git branch -d html-assignments
+
+                      Css
+ git clone https://github.com/vprema1593/premav.git
+  cd desktop
+  cd project_dir
+  mkdir assignmentcss
+ mkdir assignmentcss1
+ cd assignmentcss1
+  touch Readme.txt
+ git add Readme.txt
+ git init
+ git status
+ git add Redame.txt
+   vi Readme.txt
+  git commit -m 'Readme.txt file commited'
+  git stage Readme.txt
+ gixt commit -m 'commited one file'
+   git commit -m 'commited readme file'
+git status
+   touch css assignments
+ git pull
+    git branch css-assignments
+  git checkout css-assignments
+  git checkout master Readme.txt
+  git switch 'css-assignments'
+  git checkout master Readme.txt
+  git status
+  touch file.txt
+ git add -A
+  git status
+  git switch master
+ touch file.css
+ git add -A
+git status
+  git stash
+ git switch master
+  git merge css-assignments
+ git branch -d css-assignments
+
+                              js
+ git clone https://github.com/vprema1593/premav.git
+ mkdir jsassignments
+cd jsassignments
+  git add Readme.txt
+  touch Readme.txt
+  git add Readme.txt
+  git init
+ git status
+  git add Readme.txt
+  vi Readme.txt
+git commit -m 'Readme.txt file commited'
+ git status
+  touch jsassignments
+  git pull
+    git branch javascript-assignments
+git switch 'javascript-assignmemts'
+  git switch 'javascript-assignments'
+   git checkout master Readme.txt
+git status
+  git add Readme.txt
+   git status
+ git checkout master Readme.txt
+  git add Readme.txt
+ git checkout master Readme.txt
+  git checkout master Readme.txt
+git stage Readme.txt
+  git commit -m 'Readmefile added'
+  git status
+  git checkout master Readme.txt
+  git status
+ touch file.txt
+  git add -a
+ git add -A
+ git status
+  git switch  master
+    touch file.javascript
+  git add -A
+ git status
+  git stash
+  git switch master
+git merge javascript-assignments
+   git branch -d javascript-assignments
+
